@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Menú</title>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="menu">
+        <button id="leelo">Poema</button>
+        <button id="curiosidad">Curiosidad</button>
+        <button id="leonela">Leonela</button>
+        <a href="poema.html">Poema</a>
+    </div>
+
+    <script>
+        // Agrega la funcionalidad que desees para cada botón aquí
+        const poemaButton = document.getElementById("leelo");
+        const curiosidadButton = document.getElementById("curiosidad");
+        const leonelaButton = document.getElementById("leonela");
+
+        poemaButton.addEventListener("click", function() {
+            window.location.href = 'poema.html';
+
+        });
+
+        curiosidadButton.addEventListener("click", function() {
+            window.location.href = 'index4.html';
+
+        });
+
+        leonelaButton.addEventListener("click", function() {
+            // Agregar código para llevar a la página o realizar una acción relacionada con "Leonela"
+            // Por ejemplo, redirigir a una página llamada "leonela.html"
+            window.location.href = "index1.html";
+        });
+    </script>
+</body>
+</html>
